@@ -3,6 +3,7 @@ import { Service, ServiceStatus } from "./service"
 import { Posts } from "../types/post"
 
 
+// useGetPostsService returns all blog posts from the service.
 const useGetPostsService = () => {
   const [result, setResult] = useState<Service<Posts>>({ status: ServiceStatus.LOADING })
 

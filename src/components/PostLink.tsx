@@ -5,9 +5,7 @@ interface PostLinkProps {
 }
 
 export const PostLink = (props: PostLinkProps) => {
-
   const { post } = props;
-
   const url = `http://localhost:5173/posts/${post.id}`
 
   return (

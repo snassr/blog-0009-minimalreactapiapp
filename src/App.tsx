@@ -1,9 +1,6 @@
 import './App.css'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom"
 import './index.css'
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { PostsPage } from './routes/posts/PostsPage'
 import { PostPage } from './routes/posts/PostPage'
 
