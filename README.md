@@ -1,1 +1,1 @@
-# React API Hooks on Vite
+# Minimal React API Application
