@@ -1,11 +1,11 @@
-import './App.css';
+import './App.css'
 import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom";
+} from "react-router-dom"
 import './index.css'
-import { PostsPage } from './routes/posts/PostsPage';
-import { PostPage } from './routes/posts/PostPage';
+import { PostsPage } from './routes/posts/PostsPage'
+import { PostPage } from './routes/posts/PostPage'
 
 // setup routes for root (posts) and param w/ id path (post)
 const router = createBrowserRouter([

@@ -1,6 +1,6 @@
-import { PostLink } from "../../components/PostLink";
-import useGetPostsService from "../../hooks/useGetPostsService";
-import { ServiceStatus } from "../../hooks/service";
+import { PostLink } from "../../components/PostLink"
+import useGetPostsService from "../../hooks/useGetPostsService"
+import { ServiceStatus } from "../../hooks/service"
 
 export const PostsPage = () => {
   const service = useGetPostsService();

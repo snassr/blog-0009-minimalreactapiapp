@@ -1,7 +1,7 @@
 import { Post } from "../../types/post"
-import { useParams } from 'react-router-dom';
-import useGetPostService from "../../hooks/useGetPostService";
-import { ServiceStatus } from "../../hooks/service";
+import { useParams } from 'react-router-dom'
+import useGetPostService from "../../hooks/useGetPostService"
+import { ServiceStatus } from "../../hooks/service"
 
 export const PostPage = () => {
   const { postId } = useParams();
